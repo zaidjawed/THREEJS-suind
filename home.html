@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css">
+  <title>SUIND</title>
+</head>
+
+<body>
+  <canvas id="canvas"></canvas>
+  <div class="loader" id="loader">
+    <span class="spinner"></span>
+    <p>Loading...</p>
+  </div>
+  <div class="container hide" id="container">
+    <div class="wrapper">
+      <div class="left"></div>
+      <div class="right">
+        <div class="card drone-info">
+          <h2>Basic Info</h2>
+          <p><i id="id">#Drone1</i></p>
+          <div class="table">
+            <div class="table-left">
+              <p>Status:</p>
+              <p>Flight hours:</p>
+              <p>Battery Status:</p>
+              <p>Last Known Location:</p>
+              <p>Current Mission:</p>
+            </div>
+            <div class="table-right">
+              <p id="status">Available</p>
+              <p id="flightHour">25</p>
+              <p id="batteryStatus">50%</p>
+              <p id="location">50, 60</p>
+              <p id="mission">Flay</p>
+            </div>
+          </div>
+        </div>
+        <div class="card logs">
+          <h2>Maintenance Logs </h2>
+          <div class="item-list" id="maintenanceLogs">
+            <div class="item">
+              <p class="desc">Firmware update</p>
+              <div class="subtitle">
+                <span class="date">2024-03-05</span> | <span class="name">Alice Johnson</span>
+              </div>
+            </div>
+
+            <div class="item">
+              <p class="desc">Firmware update</p>
+              <div class="subtitle">
+                <span class="date">2024-03-05</span> | <span class="name">Alice Johnson</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a href="javascript:void(0)" class="card back-btn" id="backBtn">Back</a>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="./js/home.js"></script>
+</body>
+
+</html>

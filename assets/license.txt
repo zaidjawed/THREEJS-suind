@@ -1,0 +1,11 @@
+Model Information:
+* title:	Camera Drone
+* source:	https://sketchfab.com/3d-models/camera-drone-e255bba4880340ac9098ad28993803e0
+* author:	Sahir Virmani (https://sketchfab.com/sahirvirmani)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Camera Drone" (https://sketchfab.com/3d-models/camera-drone-e255bba4880340ac9098ad28993803e0) by Sahir Virmani (https://sketchfab.com/sahirvirmani) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
